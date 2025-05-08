@@ -9,12 +9,17 @@ This project provides a solution for working with Jupyter Notebooks (.ipynb file
 git clone https://github.com/Jieyuuuuu/Cursor-JupyterNotebook.git
 ```
 
-2. Install requirements:
+2. Change to the project directory:
+```bash
+cd Cursor-JupyterNotebook
+```
+
+3. Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. In Cursor's chat, tell it to read the rules and template:
+4. In Cursor's chat, tell it to read the rules and template:
 ```
 Please read cursor_rules.txt and template.py first
 ```
