@@ -2,6 +2,23 @@
 
 This project provides a solution for working with Jupyter Notebooks (.ipynb files) in Cursor IDE, which currently doesn't have native support for .ipynb files.
 
+## Quick Start
+
+1. Clone this repository:
+```bash
+git clone https://github.com/Jieyuuuuu/Cursor-JupyterNotebook.git
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. In Cursor's chat, tell it to read the rules and template:
+```
+Please read cursor_rules.txt and template.py first
+```
+
 ## Project Structure
 
 - `template.py`: A Python template that can generate .ipynb files
@@ -16,9 +33,9 @@ This project provides a solution for working with Jupyter Notebooks (.ipynb file
 
 ## Usage
 
-1. Clone this repository
-2. Follow the instructions in cursor_rules.txt when working with .ipynb files
-3. Use template.py as a base for creating new notebooks
+1. After setting up, you can directly tell Cursor what kind of notebook you want to create or edit
+2. Use template.py as a base for creating new notebooks
+3. Follow the instructions in cursor_rules.txt when working with .ipynb files
 
 ## Requirements
 
